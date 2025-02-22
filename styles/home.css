@@ -211,7 +211,7 @@ body {
 
 /* About */
 
-.about .about-content {
+.about-home {
   max-width: 1170px;
   margin-inline: auto;
   display: flex;
@@ -220,7 +220,7 @@ body {
   gap: 20px;
 }
 
-.about-left {
+.about-home .about-left {
   padding-block: 20px;
   width: 45%;
   display: flex;
@@ -228,55 +228,80 @@ body {
   gap: 22px;
 }
 
-.about-right {
+.about-left .about-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f08632;
+  letter-spacing: 4px;
+}
+.about-left .about-subtitle {
+  font-size: 46px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.about-home .about-right {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 45px;
   width: 45%;
   padding-block: 30px;
 }
 
-.about-skills {
-  display: flex;
-  flex-direction: column;
-  gap: 35px;
-}
-
-.about-skill {
+.about-right .about-skill {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.about-skill-header {
+.about-skill .about-skill-header {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
 }
 
-.about-progress {
+.about-skill-header .about-skill-name {
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.about-skill .about-progress {
   background: #e0e0e0;
   height: 6px;
   width: 100%;
   position: relative;
 }
 
-.about-progress-bar {
+.about-progress .about-progress-bar {
   background: black;
   height: 6px;
 }
 
-.about-title {
-  font-size: 20px;
-  font-weight: bold;
-  color: #f08632;
-  letter-spacing: 4px;
+
+
+/* ---------------------------Category---------------------------- */
+
+.category {
+  display: flex;
+  max-width: 1170px;
+  margin-inline: auto;
+  justify-content: space-between;
+  margin-block: 20px;
 }
 
-.about-subtitle {
-  font-size: 46px;
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+.category .category-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color:rgb(238, 232, 232);
+  border-radius: 50%;
+  padding: 45px;
+  gap: 10px;
+ 
 }
-
-
+.category .category-item img {
+  width: 100px;
+  height: 100px;
+}
