@@ -286,6 +286,8 @@ body {
   margin-inline: auto;
   justify-content: space-between;
   margin-block: 20px;
+  border-bottom: 1px solid #f08632;
+  padding: 20px;
 }
 
 .category .category-item{
@@ -295,13 +297,24 @@ body {
   align-items: center;
   width: 100px;
   height: 100px;
-  background-color:rgb(238, 232, 232);
   border-radius: 50%;
   padding: 45px;
   gap: 10px;
  
 }
+
+.category .category-item:hover {
+  background-color: #f08632; 
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
 .category .category-item img {
   width: 100px;
   height: 100px;
 }
+
+.category .category-item:hover img {
+  filter: brightness(0) invert(1); 
+}
+
