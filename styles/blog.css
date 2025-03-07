@@ -349,3 +349,34 @@ body {
     letter-spacing: 2px;
 }
 
+/*  */
+.pagination{
+    margin-block: 50px;
+    display: flex;
+    align-items: center;
+    
+    font-size: 16px;
+    font-weight: 600;
+    gap: 5px;
+}
+
+.pagination .pa-item{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #111111;
+    border-radius: 50%;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    transition: all, 0.5s;
+}
+.pagination .pa-item:hover{
+    background-color: black;
+    color: white;
+}
+.pagination i{
+    font-size: 10px;
+}
