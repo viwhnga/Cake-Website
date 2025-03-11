@@ -84,7 +84,7 @@ body {
     max-height: 430px;
     overflow-y: auto; 
     overflow-x: hidden;
-    scrollbar-width: thin; 
+    scrollbar-width: thin; // thanh cuộn cho sản phẩm 
     gap: 10px;
 }
 
